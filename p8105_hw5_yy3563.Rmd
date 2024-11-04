@@ -1,0 +1,12 @@
+---
+title: "p8105_hw5_yy3563"
+author: "Yifei Yu"
+date: "2024-11-04"
+output: github_document
+---
+
+Load some packages.
+```{r}
+library(tidyverse)
+```
+
