@@ -132,7 +132,7 @@ problem_3 = data |>
 
 ```{r}
 problem_3 |> 
-  filter(city_state=="Baltimore, MD") |> 
+  filter(city_state == "Baltimore, MD") |> 
   mutate(tidy(prop.test(unsolved, solved+unsolved))) |> 
   select(estimate, conf.low, conf.high)
 ```
